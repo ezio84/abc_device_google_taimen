@@ -35,3 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/gapps/inline.mk)
+$(call inherit-product-if-exists, vendor/additional_pixelgapps/inline_additional.mk)
