@@ -34,5 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="taimen-user 9 PQ1A.181205.002 5086253 release-keys"
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
-$(call inherit-product-if-exists, vendor/gapps/inline.mk)
-$(call inherit-product-if-exists, vendor/additional_pixelgapps/inline_additional.mk)
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
