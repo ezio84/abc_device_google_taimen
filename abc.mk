@@ -30,12 +30,12 @@ PRODUCT_MODEL := Pixel 2 XL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="taimen" \
-    PRIVATE_BUILD_DESC="taimen-user 11 RP1A.201005.004 6782484 release-keys"
+    PRIVATE_BUILD_DESC="taimen-user 11 RP1A.201005.004.A1 6934943 release-keys"
 
-BUILD_FINGERPRINT := "google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys"
+BUILD_FINGERPRINT := "google/taimen/taimen:11/RP1A.201005.004.A1/6934943:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys
+    ro.build.fingerprint=google/taimen/taimen:11/RP1A.201005.004.A1/6934943:user/release-keys
 
     # Active Edge
 PRODUCT_PACKAGES += \
